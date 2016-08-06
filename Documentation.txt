@@ -1,0 +1,23 @@
+Step one: Installed the ror
+Step two: installed the materialize CSS
+step three: started working on authenication
+authentication is done using devise (it generates database, views, validation, session)
+linked all user related buttons to perform actions{
+<li><%= link_to "Sign Up", new_user_registration_path  %></li>
+<li><%= link_to "Login", new_user_session_path  %></li>
+<%= link_to "About us", pages_about_path, :class=>"grey-text text-lighten-4" %>
+  <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
+                   
+}
+now modify the users by creating a new migration
+
+now configure permitted params
+
+now modify the register layout in devise
+
+modify session in devise (copy from the register)
+
+
+
+
+	
