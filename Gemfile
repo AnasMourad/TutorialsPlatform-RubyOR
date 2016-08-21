@@ -28,9 +28,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 #Materialize CSS
-gem 'materialize-sass'
 gem 'devise', '~>3.4.1'
-group :doc do
+    group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
